@@ -1,0 +1,4 @@
+CREATE TABLE Department (
+   Department_ID INT GENERATED ALWAYS AS IDENTITY,
+    Department_name VARCHAR(255) NOT NULL,
+   PRIMARY KEY(Department_ID)
