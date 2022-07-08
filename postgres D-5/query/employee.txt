@@ -1,9 +1,0 @@
-CREATE TABLE Employee(
-   Employee_ID INT GENERATED ALWAYS AS IDENTITY,
-   Employee_name VARCHAR(255) NOT NULL,
-	Department_ID INT,
-   PRIMARY KEY(Employee_ID),
-   CONSTRAINT fk_customer
-      FOREIGN KEY(Department_ID) 
-	  REFERENCES Department (Department_ID)
-	)
